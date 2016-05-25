@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@-ms-viewport	{width: device-width;}
+
+body		{margin: 0;
+		font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+		/*overflow:hidden;*/}
+
+.menu {margin: 0 auto 0 auto;}
+
+.menu-box	{margin: 35px;
+	float:left;}
+	
+.flex {
+	display: flex;
+	justify-content: center;
+}
+
+.p	{
+	font-size :60px;
+}
+
+.menu-margin	{margin:20px;
+}
+
+#m		{float:left;
+		width:400;
+}
+
+.name		{font-size:40px;
+}
+
+#text	{float:right;
+}
