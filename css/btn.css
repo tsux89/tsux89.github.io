@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+.btn a:hover {
+  background-color: #20b2aa;
+  box-shadow: 0 3px 0 #12978d, 0 6px 0px rgba(0,0,0,0.2);
+  -webkit-transform: translateY(3px);
+  transform: translateY(3px);
+  -webkit-animation: flash 1s;
+  animation: flash 1s;
+}
+ 
+.btn a:active {
+  color: #ddd;
+  background-color: #12978d;
+  box-shadow: 0 0 0 #047c71, 0 0 0px rgba(0,0,0,0.2);
+  -webkit-transform: translateY(6px);
+  transform: translateY(6px);
+  transition-duration: 0.1s;
+}
+ 
+@-webkit-keyframes flash {
+  0% { background-color: #20b2aa; }
+  10% { background-color: #96e9e6; }
+  100% { background-color: #20b2aa; }
+}
+ 
+@keyframes flash {
+  0% { background-color: #20b2aa; }
+  10% { background-color: #96e9e6; }
+  100% { background-color: #20b2aa; }
+}

@@ -4,6 +4,7 @@
 
 body		{margin: 0;
 		font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+		font-size:20px;
 		/*overflow:hidden;*/}
 
 .menu {margin: 0 auto 0 auto;}
@@ -32,3 +33,4 @@ body		{margin: 0;
 
 #text	{float:right;
 }
+
