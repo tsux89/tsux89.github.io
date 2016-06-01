@@ -31,7 +31,8 @@ body		{margin: 0;
 #w		{width:980;
 }
 
-#r		{
+#r		{float:right;
+		text-align:left;
 }
 
 
